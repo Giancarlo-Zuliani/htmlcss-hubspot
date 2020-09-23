@@ -1,0 +1,20 @@
+*{
+  box-sizing: border-box;
+  margin:0;
+  padding:0;
+  font-family: 'Nunito', sans-serif;
+}
+
+header{
+  width:100%;
+  background-color: #f4f9fd;
+  border-bottom: 1px solid #7a8b97;
+  /* DEBUG:  */
+  height:50px;
+  /* DEBUG:  */
+}
+
+#lang_globe{
+  height:100%;
+  width:5%;
+}

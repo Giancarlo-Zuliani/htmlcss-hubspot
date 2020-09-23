@@ -10,7 +10,9 @@ header{
   background-color: #f4f9fd;
   border-bottom: 1px solid #7a8b97;
   height:50px;
-  position: relative;
+  position: fixed;
+
+  z-index:5;
 }
 
 .left > *{
@@ -44,7 +46,7 @@ button{
 #logo{
   position:absolute;
   transform:scale(0.8) translate(-10%,-50%);
-  left:0;
+  left:10%;
   top:50%;
 }
 
@@ -67,12 +69,14 @@ nav{
   width:100%;
   height:50px;
   background-color: #ffffff;
+  position:fixed;
+  top:50px;
+  z-index:5;
 }
-<<<<<<< HEAD
 
 .navbar{
   position:absolute;
-  right:0;
+  right:10%;
   top:50%;
   transform:translateY(-50%);
 }
@@ -83,22 +87,6 @@ nav{
 
 }
 
-=======
-
-.navbar{
-  position:absolute;
-  right:0;
-  top:50%;
-  transform:translateY(-50%);
-}
-
-.navbar > span{
-  padding:10px;
-  font-size: 12px;
-
-}
-
->>>>>>> main
 .cleafix::after{
   content:"";
   display:table;
@@ -113,8 +101,7 @@ nav{
   width:100%;
   position:relative;
   height:700px;
-
-
+  top:100px;
 }
 
 #jumbotron{
@@ -183,11 +170,7 @@ main{
   margin: auto;
   background-color: white;
   border:solid 1px grey;
-<<<<<<< HEAD
   height:30%;
-=======
-  height:250px;
->>>>>>> main
 
 }
 .sectionL{
@@ -215,13 +198,10 @@ main{
 width: 40%;
 height: 40%;
 margin:30px 0;
-<<<<<<< HEAD
 }
 
 
 .fixed{
   width:100%;
   position:fixed;
-=======
->>>>>>> main
 }

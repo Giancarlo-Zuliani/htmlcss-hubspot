@@ -68,6 +68,7 @@ nav{
   height:50px;
   background-color: #ffffff;
 }
+<<<<<<< HEAD
 
 .navbar{
   position:absolute;
@@ -82,6 +83,22 @@ nav{
 
 }
 
+=======
+
+.navbar{
+  position:absolute;
+  right:0;
+  top:50%;
+  transform:translateY(-50%);
+}
+
+.navbar > span{
+  padding:10px;
+  font-size: 12px;
+
+}
+
+>>>>>>> main
 .cleafix::after{
   content:"";
   display:table;
@@ -166,7 +183,11 @@ main{
   margin: auto;
   background-color: white;
   border:solid 1px grey;
+<<<<<<< HEAD
   height:30%;
+=======
+  height:250px;
+>>>>>>> main
 
 }
 .sectionL{
@@ -194,10 +215,13 @@ main{
 width: 40%;
 height: 40%;
 margin:30px 0;
+<<<<<<< HEAD
 }
 
 
 .fixed{
   width:100%;
   position:fixed;
+=======
+>>>>>>> main
 }

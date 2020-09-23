@@ -81,8 +81,33 @@ nav{
 
 }
 
-.clearfix:after{
+.cleafix:after{
   content:"";
   display:table;
-  clear:both;
+  clear:right;
 }
+.jumbotron{
+  width:100%;
+  position:relative;
+  height:500px;
+
+}
+
+#jumbotron{
+  z-index: -1;
+ position:absolute;
+ width: 100%;
+ right:0;
+ top:0;
+ background-image: url("../resources/jumbotron.png");
+}
+
+.slogan{
+  width: 80%;
+  margin:auto;
+  color:#33475b;
+  right:16.3%;
+  position:relative;
+  padding:20px;
+
+  }

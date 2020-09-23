@@ -1,7 +1,7 @@
 *{
   box-sizing: border-box;
   margin:0;
-  padding:0;
+
   font-family: 'Nunito', sans-serif;
 }
 
@@ -156,5 +156,41 @@ main{
 }
 
 #Mpar{
-  margin-top:30px; 
+  margin-top:30px;
+  margin-bottom: 50px;
+}
+
+#mainsection{
+  width:80%;
+  margin: auto;
+  background-color: white;
+  border:solid 1px grey;
+  height:250px;
+
+}
+.sectionL{
+  position:relative;
+  height:100%;
+  width:35%;
+  float:left;
+  text-align: center;
+}
+
+.sectionR{
+  width:65%;
+  float:right;
+  text-align: left;
+}
+
+.sectionL button{
+  padding:15px 20px;
+  position:absolute;
+  left:50%;
+  transform: translateX(-50%);
+  bottom:25%;
+}
+.sectionL img{
+width: 40%;
+height: 40%;
+margin:30px 0;
 }

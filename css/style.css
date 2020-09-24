@@ -602,6 +602,7 @@ footer hr{
   float:right;
   margin:25px 0 0 25px;
   color:#cbd6e2;
+  text-decoration: underline;
 }
 
 #footerEnd div{
@@ -615,6 +616,30 @@ footer hr{
   display:table;
   clear:both;
 }
+
+/* footer link list hover effect */
+
+footer li:hover{
+  text-decoration: underline;
+  color:#00b2af;
+  cursor:pointer;
+}
+
+/* legal stuff privacy policy hover effect */
+
+.footright:hover{
+  cursor:pointer;
+  text-decoration: none;
+  color:#00b2af;
+}
+
+/* footer button hover effect */
+
+#footerButton:hover{
+  background-color:#6ca0bc;
+  cursor:pointer;
+}
+
 
   /* HubBot chat widget */
 

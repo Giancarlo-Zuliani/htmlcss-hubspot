@@ -345,8 +345,6 @@ ul{
   width:100%;
   color:white;
   padding:5% 0;
-  /* DEBUG:  */
-  height: 100vh;
 }
 
 #table .greencontainer{
@@ -366,12 +364,12 @@ ul{
 }
 
 .TableIcon{
-  width:50px;
-  height:50px;
+  width:35%;
+  height:35%;
   position:absolute;
   left:50%;
-  top:50%;
-  transform: translate(-50%,-50%);
+  top:10px;
+  transform: translateX(-50%);
 }
 
 .row{
@@ -410,4 +408,20 @@ border-right: 1px solid white;
 
 .topborder{
   border-top:1px white solid;
+}
+
+.datas{
+  position:absolute;
+  top:60%;
+  left:50%;
+  transform: translate(-50%,-50%);
+  font-size: 40px;
+  font-weight: bolder;
+}
+.tablespan{
+  position:absolute;
+  bottom:10%;
+  right:50%;
+  transform:translateX(50%);
+  font-size: 14px;
 }

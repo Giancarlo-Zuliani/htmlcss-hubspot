@@ -395,7 +395,7 @@ ul{
 
   /* tables white lines */
 
-  .rightbottom{
+.rightbottom{
   border-bottom: 1px solid white;
   border-right: 1px solid white;
   }
@@ -648,6 +648,7 @@ a:hover{
   cursor:pointer;
   text-decoration: underline;
 }
+
 /* footer link list hover effect */
 
 footer li:hover{
@@ -705,4 +706,19 @@ footer li:hover{
 .widget:hover{
   transform: scale(1.2);
   cursor:pointer;
+}
+
+/* hidden search text input that slide over on click */
+
+#magnifier:hover{
+  cursor:pointer;
+}
+
+.hiddenSearch{
+  opacity:0;
+  height:25px;
+  width:15px;
+  margin-top:25px;
+  transition:all 0.5s;
+  transform-origin:right;
 }

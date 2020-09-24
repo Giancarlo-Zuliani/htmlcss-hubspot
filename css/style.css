@@ -574,10 +574,14 @@ footer hr{
 }
 .footright{
   float:right;
+  margin:25px 0 0 25px;
+  color:#cbd6e2;
 }
 
 #footerEnd div{
   float:left;
+  margin-top: 20px;
+  color:#cbd6e2;
 }
 
 #footerEnd::after{

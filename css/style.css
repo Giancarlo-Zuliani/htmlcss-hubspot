@@ -233,9 +233,11 @@ margin:30px 0;
 }
 .widget{
   position:fixed;
+  right:20px;
+  bottom:20px;
   background-color: #6ca0bc;
-  width:100px;
-  height:100px;
+  width:60px;
+  height:60px;
   float:right;
   z-index: 10;
   border-radius: 100%;
@@ -245,7 +247,7 @@ margin:30px 0;
 .widget img{
   width:50%;
   height:50%;
-  position:absolute;
+  position: absolute;
   left:50%;
   top:50%;
   transform: translate(-50%,-50%);

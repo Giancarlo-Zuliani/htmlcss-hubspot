@@ -19,6 +19,5 @@ magnifier.addEventListener('click',function(){
     textInputNavBar.style.width = "0px"
     textInputNavBar.style.opacity = "0"
   };
-
   x=!x
 })

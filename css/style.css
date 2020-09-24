@@ -1,11 +1,23 @@
+
+/* general rules */
+
 *{
   box-sizing: border-box;
   margin:0;
   font-family: 'Nunito', sans-serif;
 }
+
 body{
     background-color:#f4f9fd;
 }
+
+.cleafix::after{
+  content:"";
+  display:table;
+  clear:right;
+}
+
+/* navbars */
 
 header{
   width:100%;
@@ -29,6 +41,8 @@ button:hover{
   margin:25px 10px 0 0;
   transform: translateY(-50%);
 }
+
+/* buttons styles */
 
 .empty{
   padding:5px;
@@ -54,6 +68,8 @@ button:hover{
   color: rgba(255,255,255,0.4);
   background-color: rgba(255,102,0,0.4);
 }
+
+/* navbars icons */
 
 .icon{
   width:10px;
@@ -81,7 +97,6 @@ button:hover{
   transform: translateY(-50%);
 }
 
-
 nav{
   width:100%;
   height:50px;
@@ -101,20 +116,9 @@ nav{
 .navbar > span{
   padding:10px;
   font-size: 12px;
-
 }
 
-.cleafix::after{
-  content:"";
-  display:table;
-  clear:right;
-}
-
-.cleafix:after{
-  content:"";
-  display:table;
-  clear:right;
-}
+/* Jumbotron styles */
 
 .jumbotron{
   width:100%;
@@ -125,10 +129,12 @@ nav{
 #jumbo{
   width: 100%;
   background-image: url('../resources/jumbotron.png');
-   background-size: cover;
-   background-position: center;
-   height:110vh;
+  background-size: cover;
+  background-position: center;
+  height:110vh;
 }
+
+/* Jumbotron texts and buttom */
 
 #JumboBottom{
   position: absolute;
@@ -168,6 +174,9 @@ nav{
   top:60%;
   font-size: 12px;
 }
+
+/* main content */
+
 main{
   position:relative;
   width:100%;
@@ -184,6 +193,7 @@ main{
   top:35px;
   transform:translateX(-50%);
 }
+
 #mainTitle{
   padding-top: 250px;
 }
@@ -201,6 +211,8 @@ main{
   border-radius: 5px;
   height:320px;
 }
+
+/* left and right section of first content block */
 
 .sectionL{
   position:relative;
@@ -235,6 +247,377 @@ margin:30px 0;
   position:relative;
   top:10px;
 }
+
+.sectionR h2{
+  margin:5% 0;
+}
+
+.sectionR hr{
+  float:right;
+  margin-right: 5%;
+}
+
+.SRtext{
+  margin:3% 0;
+}
+
+.SRlist{
+  margin: 0 5%;
+  font-size: 20px;
+}
+
+.Sicon{
+  width: 15px;
+  height:15px;
+}
+
+/* columns styles */
+
+.box{
+  float:left;
+  width:calc(70% / 3);
+  margin:5% 2.5%;
+  border: solid grey 1px;
+  border-radius: 5px;
+  background-color: white;
+  text-align: center;
+}
+
+.LeftBox{
+  margin-left: 10%;
+}
+
+ul{
+  list-style-type: none;
+  text-align:left;
+  font-size: 14px;
+}
+
+.box li{
+  margin:auto;
+}
+
+#markimg{
+  width:38.5%;
+  margin:10%;
+}
+
+#salesimg{
+  width:48%;
+  margin:10%;
+}
+
+#serviceimg{
+  width:35%;
+  margin:10%;
+}
+
+.boxtext{
+  padding:5%;
+  margin:auto;
+}
+
+.box hr{
+  width:60%;
+  color:darkgrey;
+  margin:10% auto;
+}
+
+.box h3{
+  margin:10% auto;
+}
+
+.box button{
+  margin:10%;
+  padding:20px;
+  width:50%;
+}
+
+/* Datas green table */
+
+#table{
+  display: inline-block;
+  background-color: #00acb6;
+  width:100%;
+  color:white;
+  padding:3% 0 6% 0;
+}
+
+#table .greencontainer{
+  text-align: center;
+  width:80%;
+  margin:auto;
+}
+
+#table h1{
+  padding:5%;
+  font-size: 40px;
+}
+
+#table p{
+  padding-bottom: 50px;
+  font-size: 20px;
+}
+
+  /* table icons */
+
+.TableIcon{
+  width:35%;
+  height:35%;
+  position:absolute;
+  left:50%;
+  top:10px;
+  transform: translateX(-50%);
+}
+
+.row{
+  margin:auto;
+  width:80%;
+  text-align: center;
+}
+
+.row::after{
+  content:"";
+  display:table;
+  clear:both;
+}
+
+/* table containers */
+
+.square{
+  position:relative;
+  margin:0;
+  width: 25%;
+  height:200px;
+  float:left;
+  }
+
+  /* tables white lines */
+
+  .rightbottom{
+  border-bottom: 1px solid white;
+  border-right: 1px solid white;
+  }
+
+.bottomborder{
+  border-bottom: 1px white solid;
+}
+
+.topright{
+border-top: solid 1px white;
+border-right: 1px solid white;
+}
+
+.topborder{
+  border-top:1px white solid;
+}
+
+/* table texts */
+
+.datas{
+  position:absolute;
+  top:60%;
+  left:50%;
+  transform: translate(-50%,-50%);
+  font-size: 40px;
+  font-weight: bolder;
+}
+
+.tablespan{
+  position:absolute;
+  bottom:10%;
+  right:50%;
+  transform:translateX(50%);
+  font-size: 14px;
+}
+
+.sponsor{
+  padding:100px 0 50px 0;
+}
+
+.minorwidth{
+  width:80%;
+  margin:auto;
+}
+
+/* partners section */
+
+.sponsoricon{
+  max-width: 150px;
+  max-height: 150px;
+  padding:10px;
+  margin:auto;
+}
+
+.sponsorimage{
+  float:right;
+  width:55%;
+}
+
+#customerscountry{
+  color:#33475b;
+  float:left;
+  height:20%;
+  width:10%;
+  text-align: left;
+  margin-left: 20%;
+}
+
+#countrynum{
+  font-size: 50px;
+}
+
+.rowsponsor{
+  text-align: right;
+  margin-right: 20%;
+}
+
+.rowsponsor::after{
+  content:"";
+  display:table;
+  clear:both;
+}
+
+#woman{
+  float:right;
+  max-width: 20%;
+  max-height: 20%;
+  margin-right: 5%;
+}
+
+#startgrowing{
+  float:left;
+  width:40%;
+  text-align: left;
+  margin-left:10%;
+}
+
+#startgrowing h2{
+  margin-bottom: 10%;
+  font-size: 45px;
+  width: 90%;
+}
+
+#startgrowing p{
+  line-height: 25px;
+  margin-bottom: 10%;
+  width: 70%;
+}
+
+#startgrowing button{
+  padding:20px;
+  width: 50%;
+  margin-bottom: 5%;
+}
+
+/* footer */
+
+footer{
+  background-color: #32495b;
+  margin:auto;
+  width:100%;
+  padding-bottom: 50px;
+}
+
+.footerlists{
+  background-color: #32495b;
+  float:left;
+  margin:50px 0 0 12.5%;
+  color:white;
+}
+
+.sponsor::after{
+  content:"";
+  display:table;
+  clear:both;
+}
+
+.footerlists span{
+  text-align: left;
+}
+
+footer li{
+  line-height: 50px;
+}
+
+.footerlists ul{
+  margin-top:30px;
+  width:100%;
+  padding:0;
+}
+
+#footerButton{
+  background-color: #dadee0;
+  padding:15px;
+  width:100%;
+  color:#32495b;
+}
+
+/* footer social icons */
+
+#footerSocialIcon {
+  margin:0;
+}
+
+#footerSocialIcon li{
+  margin:20px 20px 0 0;
+  display: inline-block;
+}
+
+.iconFooter{
+  width:25px;
+  height:25px;
+}
+
+/* footer languages list */
+
+#languages{
+  width:80%;
+  margin:0 10%;
+  text-align: center;
+}
+
+#languages li{
+  display: inline-block;
+  margin:50px 50px;
+  color:#dadee0;
+}
+
+#footerEnd{
+  width:80%;
+  margin:auto;
+}
+
+/* footer hoizontal rule */
+
+footer hr{
+  width:80%;
+  margin:auto;
+  color: #dadee0;
+}
+
+/* footer logo and copyright */
+
+.footright{
+  float:right;
+  margin:25px 0 0 25px;
+  color:#cbd6e2;
+}
+
+#footerEnd div{
+  float:left;
+  margin-top: 20px;
+  color:#cbd6e2;
+}
+
+#footerEnd::after{
+  content:"";
+  display:table;
+  clear:both;
+}
+
+  /* HubBot chat widget */
+
 .widget{
   position:fixed;
   right:20px;
@@ -260,332 +643,4 @@ margin:30px 0;
 .widget:hover{
   transform: scale(1.2);
   cursor:pointer;
-}
-
-.sectionR h2{
-  margin:5% 0;
-}
-
-.sectionR hr{
-  float:right;
-  margin-right: 5%;
-}
-
-.SRtext{
-  margin:3% 0;
-}
-.SRlist{
-  margin: 0 5%;
-  font-size: 20px;
-}
-.Sicon{
-  width: 15px;
-  height:15px;
-}
-.box{
-  float:left;
-  width:calc(70% / 3);
-  margin:5% 2.5%;
-  border: solid grey 1px;
-  border-radius: 5px;
-  background-color: white;
-  text-align: center;
-}
-.LeftBox{
-  margin-left: 10%;
-}
-ul{
-  list-style-type: none;
-  text-align:left;
-  font-size: 14px;
-}
-
-.box li{
-  margin:auto;
-}
-
-#markimg{
-  width:38.5%;
-  margin:10%;
-}
-
-#salesimg{
-  width:48%;
-  margin:10%;
-}
-
-#serviceimg{
-  width:35%;
-  margin:10%;
-}
-.boxtext{
-  padding:5%;
-  margin:auto;
-}
-.box hr{
-  width:60%;
-  color:darkgrey;
-  margin:10% auto;
-}
-
-.box h3{
-  margin:10% auto;
-}
-
-.box button{
-  margin:10%;
-  padding:20px;
-  width:50%;
-}
-
-#table{
-  display: inline-block;
-  background-color: #00acb6;
-  width:100%;
-  color:white;
-  padding:3% 0 6% 0;
-
-
-}
-
-#table .greencontainer{
-  text-align: center;
-  width:80%;
-  margin:auto;
-}
-
-#table h1{
-  padding:5%;
-  font-size: 40px;
-}
-
-#table p{
-  padding-bottom: 50px;
-  font-size: 20px;
-}
-
-.TableIcon{
-  width:35%;
-  height:35%;
-  position:absolute;
-  left:50%;
-  top:10px;
-  transform: translateX(-50%);
-}
-
-.row{
-  margin:auto;
-  width:80%;
-  text-align: center;
-}
-
-.row::after{
-  content:"";
-  display:table;
-  clear:both;
-}
-.square{
-  position:relative;
-  margin:0;
-  width: 25%;
-  height:200px;
-  float:left;
-  }
-
-  .rightbottom{
-  border-bottom: 1px solid white;
-  border-right: 1px solid white;
-  }
-
-.bottomborder{
-  border-bottom: 1px white solid;
-}
-
-.topright{
-border-top: solid 1px white;
-border-right: 1px solid white;
-}
-
-.topborder{
-  border-top:1px white solid;
-}
-
-.datas{
-  position:absolute;
-  top:60%;
-  left:50%;
-  transform: translate(-50%,-50%);
-  font-size: 40px;
-  font-weight: bolder;
-}
-.tablespan{
-  position:absolute;
-  bottom:10%;
-  right:50%;
-  transform:translateX(50%);
-  font-size: 14px;
-}
-.sponsor{
-  padding:100px 0 50px 0;
-}
-.minorwidth{
-  width:80%;
-  margin:auto;
-}
-
-.sponsoricon{
-  max-width: 150px;
-  max-height: 150px;
-  padding:10px;
-  margin:auto;
-}
-.sponsorimage{
-  float:right;
-  width:55%;
-}
-
-#customerscountry{
-  color:#33475b;
-  float:left;
-  height:20%;
-  width:10%;
-  text-align: left;
-  margin-left: 20%;
-}
-#countrynum{
-  font-size: 50px;
-}
-.rowsponsor{
-  text-align: right;
-  margin-right: 20%;
-}
-.rowsponsor::after{
-  content:"";
-  display:table;
-  clear:both;
-}
-
-#woman{
-  float:right;
-  max-width: 20%;
-  max-height: 20%;
-  margin-right: 5%;
-}
-
-#startgrowing{
-  float:left;
-  width:40%;
-  text-align: left;
-  margin-left:10%;
-}
-
-
-#startgrowing h2{
-  margin-bottom: 10%;
-  font-size: 45px;
-  width: 90%;
-}
-
-#startgrowing p{
-  line-height: 25px;
-  margin-bottom: 10%;
-  width: 70%;
-}
-
-#startgrowing button{
-  padding:20px;
-  width: 50%;
-  margin-bottom: 5%;
-}
-
-footer{
-  background-color: #32495b;
-  margin:auto;
-  width:100%;
-  padding-bottom: 50px;
-
-}
-.footerlists{
-  background-color: #32495b;
-  float:left;
-  margin:50px 0 0 12.5%;
-  color:white;
-}
-.sponsor::after{
-  content:"";
-  display:table;
-  clear:both;
-}
-
-.footerlists span{
-  text-align: left;
-
-}
-
-footer li{
-  line-height: 50px;
-}
-
-.footerlists ul{
-  margin-top:30px;
-  width:100%;
-  padding:0;
-}
-#footerButton{
-  background-color: #dadee0;
-  padding:15px;
-  width:100%;
-  color:#32495b;
-}
-#footerSocialIcon {
-  margin:0;
-}
-#footerSocialIcon li{
-  margin:20px 20px 0 0;
-  display: inline-block;
-}
-
-.iconFooter{
-  width:25px;
-  height:25px;
-}
-
-#languages{
-  width:80%;
-  margin:0 10%;
-  text-align: center;
-}
-
-#languages li{
-  display: inline-block;
-  margin:50px 50px;
-  color:#dadee0;
-}
-
-#footerEnd{
-  width:80%;
-  margin:auto;
-}
-
-footer hr{
-  width:80%;
-  margin:auto;
-  color: #dadee0;
-}
-.footright{
-  float:right;
-  margin:25px 0 0 25px;
-  color:#cbd6e2;
-}
-
-#footerEnd div{
-  float:left;
-  margin-top: 20px;
-  color:#cbd6e2;
-}
-
-#footerEnd::after{
-  content:"";
-  display:table;
-  clear:both;
 }

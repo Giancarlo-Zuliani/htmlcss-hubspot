@@ -168,7 +168,7 @@ nav{
 main{
   position:relative;
   width:100%;
-  height: 100vh;
+  height:150vh;
   background-color:#f4f9fd;
   text-align: center;
 }
@@ -195,7 +195,8 @@ main{
   margin: auto;
   background-color: white;
   border:solid 1px grey;
-  height:35%;
+  border-radius: 5px;
+  height:25%;
 }
 
 .sectionL{
@@ -268,13 +269,29 @@ margin:30px 0;
 }
 
 .SRtext{
-  margin:3% 0;
+  margin:5% 0;
 }
 .SRlist{
-  margin:0 5%;
+  margin: 0 5%;
   font-size: 20px;
 }
 .Sicon{
   width: 15px;
   height:15px;
+}
+.box{
+  float:left;
+  width:calc(70% / 3);
+  margin:5% 2.5%;
+  border: solid grey 1px;
+  border-radius: 5px;
+  background-color: white;
+  text-align: center;
+}
+.LeftBox{
+  margin-left: 10%;
+}
+ul{
+  list-style-type: none;
+  text-align:left;
 }

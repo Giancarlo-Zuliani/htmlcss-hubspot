@@ -241,7 +241,7 @@ margin:30px 0;
   float:right;
   z-index: 10;
   border-radius: 100%;
-  transition: all ease .3s;
+  transition: all linear .3s;
 }
 
 .widget img{
@@ -255,4 +255,26 @@ margin:30px 0;
 
 .widget:hover{
   transform: scale(1.2);
+  cursor:pointer;
+}
+
+.sectionR h2{
+  margin:5% 0;
+}
+
+.sectionR hr{
+  float:right;
+  margin-right: 5%;
+}
+
+.SRtext{
+  margin:3% 0;
+}
+.SRlist{
+  margin:0 5%;
+  font-size: 20px;
+}
+.Sicon{
+  width: 15px;
+  height:15px;
 }

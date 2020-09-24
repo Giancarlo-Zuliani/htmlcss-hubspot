@@ -502,8 +502,8 @@ footer{
   background-color: #32495b;
   margin:auto;
   width:100%;
-  /* DEBUG:  */
-  height:100vh;
+  padding-bottom: 50px;
+
 }
 .footerlists{
   background-color: #32495b;

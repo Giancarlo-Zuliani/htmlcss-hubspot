@@ -137,6 +137,7 @@ nav{
 /* Jumbotron texts and buttom */
 
 #JumboBottom{
+  background-image:linear-gradient(to right , #afebe4 0% , #1f9d85 100% );
   position: absolute;
   bottom:85px;
   right:0;
@@ -146,9 +147,7 @@ nav{
   border-left: 0;
   border-right: 0;
   z-index:2;
-  background-color:#afebe4;
 }
-
 
 #Jtitle , #Jpar , #Jbutton , #Jlittle{
   position:absolute;
@@ -338,7 +337,7 @@ ul{
 
 #table{
   display: inline-block;
-  background-color: #00acb6;
+  background-image:linear-gradient(to top right , #229f87 30% ,  #00acb6 100% );
   width:100%;
   color:white;
   padding:3% 0 6% 0;
@@ -514,14 +513,13 @@ border-right: 1px solid white;
 /* footer */
 
 footer{
-  background-color: #32495b;
+  background-image:linear-gradient(to top  , rgb(31, 24, 36) 30% , #32495b 100% );
   margin:auto;
   width:100%;
   padding-bottom: 50px;
 }
 
 .footerlists{
-  background-color: #32495b;
   float:left;
   margin:50px 0 0 12.5%;
   color:white;

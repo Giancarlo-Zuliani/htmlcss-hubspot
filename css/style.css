@@ -503,7 +503,7 @@ footer{
   margin:auto;
   width:100%;
   /* DEBUG:  */
-  height: 100vh;
+  height:100vh;
 }
 .footerlists{
   background-color: #32495b;
@@ -524,4 +524,28 @@ footer{
 
 footer li{
   line-height: 50px;
+}
+
+.footerlists ul{
+  margin-top:30px;
+  width:100%;
+  padding:0;
+}
+#footerButton{
+  background-color: #dadee0;
+  padding:15px;
+  width:100%;
+  color:#32495b;
+}
+#footerSocialIcon {
+  margin:0;
+}
+#footerSocialIcon li{
+  margin:20px 20px 0 0;
+  display: inline-block;
+}
+
+.iconFooter{
+  width:25px;
+  height:25px;
 }

@@ -343,8 +343,8 @@ ul{
   background-color: #00acb6;
   width:100%;
   color:white;
-  padding:3% 0;
-  /* DEBUG:  */
+  padding:3% 0 6% 0;
+
 
 }
 
@@ -426,7 +426,7 @@ border-right: 1px solid white;
   font-size: 14px;
 }
 .sponsor{
-  padding:100px 0;
+  padding:100px 0 50px 0;
 }
 .minorwidth{
   width:80%;
@@ -448,7 +448,7 @@ border-right: 1px solid white;
   color:#33475b;
   float:left;
   height:20%;
-  width:20%;
+  width:10%;
   text-align: left;
   margin-left: 20%;
 }
@@ -496,4 +496,32 @@ border-right: 1px solid white;
   padding:20px;
   width: 50%;
   margin-bottom: 5%;
+}
+
+footer{
+  background-color: #32495b;
+  margin:auto;
+  width:100%;
+  /* DEBUG:  */
+  height: 100vh;
+}
+.footerlists{
+  background-color: #32495b;
+  float:left;
+  margin:50px 0 0 12.5%;
+  color:white;
+}
+.sponsor::after{
+  content:"";
+  display:table;
+  clear:both;
+}
+
+.footerlists span{
+  text-align: left;
+
+}
+
+footer li{
+  line-height: 50px;
 }

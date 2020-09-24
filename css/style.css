@@ -549,3 +549,39 @@ footer li{
   width:25px;
   height:25px;
 }
+
+#languages{
+  width:80%;
+  margin:0 10%;
+  text-align: center;
+}
+
+#languages li{
+  display: inline-block;
+  margin:50px 50px;
+  color:#dadee0;
+}
+
+#footerEnd{
+  width:80%;
+  margin:auto;
+}
+
+footer hr{
+  width:80%;
+  margin:auto;
+  color: #dadee0;
+}
+.footright{
+  float:right;
+}
+
+#footerEnd div{
+  float:left;
+}
+
+#footerEnd::after{
+  content:"";
+  display:table;
+  clear:both;
+}

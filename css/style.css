@@ -377,7 +377,6 @@ ul{
   margin:auto;
   width:80%;
   text-align: center;
-  z-index: -5;
 }
 
 .row::after{
@@ -435,24 +434,66 @@ border-right: 1px solid white;
 }
 
 .sponsoricon{
-  max-width: 100px;
-  max-height: 100px;
+  max-width: 150px;
+  max-height: 150px;
   padding:10px;
   margin:auto;
 }
 .sponsorimage{
   float:right;
-  width:50%;
+  width:55%;
 }
 
 #customerscountry{
   color:#33475b;
   float:left;
   height:20%;
-  width:10%;
+  width:20%;
   text-align: left;
   margin-left: 20%;
 }
 #countrynum{
   font-size: 50px;
+}
+.rowsponsor{
+  text-align: right;
+  margin-right: 20%;
+}
+.rowsponsor::after{
+  content:"";
+  display:table;
+  clear:both;
+}
+
+#woman{
+  float:right;
+  max-width: 20%;
+  max-height: 20%;
+  margin-right: 5%;
+}
+
+#startgrowing{
+  float:left;
+  width:40%;
+  text-align: left;
+  margin-left:10%;
+}
+
+
+#startgrowing h2{
+  margin-bottom: 10%;
+  font-size: 45px;
+  width: 90%;
+}
+
+#startgrowing p{
+  line-height: 25px;
+  margin-bottom: 10%;
+  width: 70%;
+}
+
+#startgrowing button{
+  padding:20px;
+  width: 50%;
+  margin-bottom: 5%;
 }

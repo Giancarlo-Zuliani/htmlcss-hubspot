@@ -368,6 +368,10 @@ ul{
 .TableIcon{
   width:50px;
   height:50px;
+  position:absolute;
+  left:50%;
+  top:50%;
+  transform: translate(-50%,-50%);
 }
 
 .row{
@@ -383,9 +387,27 @@ ul{
   clear:both;
 }
 .square{
+  position:relative;
   margin:0;
   width: 25%;
   height:200px;
   float:left;
-  border: white solid 2px;
   }
+
+  .rightbottom{
+  border-bottom: 1px solid white;
+  border-right: 1px solid white;
+  }
+
+.bottomborder{
+  border-bottom: 1px white solid;
+}
+
+.topright{
+border-top: solid 1px white;
+border-right: 1px solid white;
+}
+
+.topborder{
+  border-top:1px white solid;
+}

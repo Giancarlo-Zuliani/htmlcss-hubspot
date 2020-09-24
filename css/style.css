@@ -570,6 +570,11 @@ footer li{
   height:25px;
 }
 
+.iconFooter:hover,
+.iconFooter:focus {
+  filter: invert(22%) sepia(49%) saturate(407%) hue-rotate(164deg) brightness(96%) contrast(87%);
+  opacity:0.5;
+}
 /* footer languages list */
 
 #languages{
@@ -628,7 +633,6 @@ footer hr{
  top:10px;
  left:0;
  background-color: #f9f9f9;
- min-width: 160px;
  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
  padding: 12px 16px;
  z-index: 10000;
@@ -726,11 +730,16 @@ footer li:hover{
   height:25px;
   width:15px;
   margin-top:25px;
-  transition:all 0.5s;
+  transition:all 0.4s;
   transform-origin:right;
   color: #00b7d3;
   border:2px solid;
   border-radius: 8px;
+  padding: 1px 15px;
+}
+
+.hiddenSearch:focus{
+  outline: none;
 }
 
 .hidden{

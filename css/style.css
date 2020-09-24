@@ -127,7 +127,7 @@ nav{
   background-image: url('../resources/jumbotron.png');
    background-size: cover;
    background-position: center;
-   height:100vh;
+   height:110vh;
 }
 
 #JumboBottom{
@@ -171,7 +171,6 @@ nav{
 main{
   position:relative;
   width:100%;
-  height:150vh;
   background-color:#f4f9fd;
   text-align: center;
   padding-bottom:20%;
@@ -200,7 +199,7 @@ main{
   background-color: white;
   border:solid 1px grey;
   border-radius: 5px;
-  height:30%;
+  height:320px;
 }
 
 .sectionL{
@@ -344,7 +343,9 @@ ul{
   background-color: #00acb6;
   width:100%;
   color:white;
-  padding:5% 0;
+  padding:3% 0;
+  /* DEBUG:  */
+
 }
 
 #table .greencontainer{
@@ -424,4 +425,34 @@ border-right: 1px solid white;
   right:50%;
   transform:translateX(50%);
   font-size: 14px;
+}
+.sponsor{
+  padding:100px 0;
+}
+.minorwidth{
+  width:80%;
+  margin:auto;
+}
+
+.sponsoricon{
+  max-width: 100px;
+  max-height: 100px;
+  padding:10px;
+  margin:auto;
+}
+.sponsorimage{
+  float:right;
+  width:50%;
+}
+
+#customerscountry{
+  color:#33475b;
+  float:left;
+  height:20%;
+  width:10%;
+  text-align: left;
+  margin-left: 20%;
+}
+#countrynum{
+  font-size: 50px;
 }

@@ -103,7 +103,7 @@ nav{
   background-color: #ffffff;
   position:fixed;
   top:50px;
-  z-index:5;
+  z-index:4;
 }
 
 .navbar{
@@ -145,7 +145,7 @@ nav{
   border: 2px solid #33475b;
   border-left: 0;
   border-right: 0;
-  z-index:4;
+  z-index:2;
   background-color:#afebe4;
 }
 
@@ -618,6 +618,36 @@ footer hr{
   clear:both;
 }
 
+/* dropdown lang menu */
+.langDrop a{
+  display: block;
+}
+.langDrop{
+ display: none;
+ position: absolute;
+ top:10px;
+ left:0;
+ background-color: #f9f9f9;
+ min-width: 160px;
+ box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+ padding: 12px 16px;
+ z-index: 10000;
+}
+
+
+.langSelector:hover{
+  cursor:pointer;
+
+}
+
+.langSelector:hover .langDrop{
+  display:block;
+}
+
+a:hover{
+  cursor:pointer;
+  text-decoration: underline;
+}
 /* footer link list hover effect */
 
 footer li:hover{

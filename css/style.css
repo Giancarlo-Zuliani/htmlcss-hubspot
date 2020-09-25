@@ -185,16 +185,9 @@ main{
 }
 
 #cube{
-  width: 250px;
-  max-height: 250px;
-  position:absolute;
-  left:50%;
-  top:35px;
-  transform:translateX(-50%);
-}
-
-#mainTitle{
-  padding-top: 250px;
+  width: 350px;
+  max-height: 350px;
+  margin:80px auto 0 auto;
 }
 
 #Mpar{
